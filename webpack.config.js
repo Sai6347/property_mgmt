@@ -25,15 +25,6 @@ module.exports = {
     ],
   },
   devServer: {
-    static: path.join(__dirname, 'public'),
-    historyApiFallback: true,
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './public/index.html',
-    }),
-  ],
-  devServer: {
     static: {
       directory: path.join(__dirname, 'public'),
     },
