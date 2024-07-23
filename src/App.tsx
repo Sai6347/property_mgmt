@@ -14,7 +14,6 @@ const StyledStack = styled(Stack) (({ theme }) => ({
 
 const App: React.FC = () => {
   return (
-    // <div><h1>Welcome to Property Management</h1></div>
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <StyledStack>
