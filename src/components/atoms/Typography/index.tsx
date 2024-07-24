@@ -9,11 +9,11 @@ export interface TypoProps {
 }
 
 
-const StyledTypography = styled(Typography) (() => ({
+const StyledTypography = styled(Typography) ({
     width: '100%',
     maxWidth:'750px',
     padding: '10px'
-}));
+});
 
 const TypographyAtom: React.FC<TypoProps> = ({ variant, label, color}) => {
     return(
